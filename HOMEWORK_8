@@ -1,0 +1,168 @@
+Problem 01: Printing an ASCII Table (10 points)
+
+ 
+
+Write a program that will print the ASCII characters from ! to ~ as a table. 
+
+Input Validation:
+
+No input validation required, no input required.
+Requirements:
+
+The characters CANNOT be hard-coded.
+You must use a loop to generate the table.
+You are only allowed to print one character at a time, or print a new line when needed.
+You must solve this problem using one for loop.
+Sample Execution:
+
+!"#$%&'()*
++,-./01234
+56789:;<=>
+?@ABCDEFGH
+IJKLMNOPQR
+STUVWXYZ[\
+]^_`abcdef
+ghijklmnop
+qrstuvwxyz
+{|}~
+ 
+
+ 
+
+ 
+
+ 
+
+Problem 02: Operations on a String (15 points)
+
+Write a program which reads a String and displays the following output:
+
+Only the uppercase letters in the string.
+The string, with all vowels replaced by an underscore.
+The number of vowels in the string.
+The number of consonants in the string
+The positions (indexes) of all vowels in the string. For the purposes of this program consider 'y' to be a consonant not a vowel.
+Input Validation:
+
+None required.
+Requirements:
+
+Assume the string will have only uppercase and lowercase letters, and spaces.
+You are only allowed to use one for loop to solve this problem. No other loops allowed.
+ 
+
+NOTE: Also, I will only test your programs with strings that contains letters (upper or lower) and spaces.
+
+Sample Execution:
+
+Enter a String: And miLes tO gO bEfoRe I sleeP
+
+Uppercase Letters:      A L O O E R I P
+Vowels Replaced:        _nd m_L_s t_ g_ b_f_R_ _ sl__P
+Number of Vowels:       11
+Number of Consonants:   13
+Positions of Vowels:    0 5 7 11 14 17 19 21 23 27 28
+ 
+
+ 
+
+ 
+
+ 
+Problem 03: Bar Chart for Store Sales (20 points)
+
+Write a program to do the following:
+
+Ask the user to enter the total sales for a chain of stores that you own.  The number of stores will vary for each user input
+Display the total sales in a bar graph for each store.
+The graph should use asterisks with each asterisk representing $100 of a sale.
+Input Validation:
+
+The input must be evenly divisible by 100
+Requirements:
+
+The output must match exactly mine.
+The graphs must be dynamically generated based on the user input.
+You must use for loops to solve the problem you are NOT allowed to use arrays.
+HINT: You will need nested loops for this one and will need to think creatively of how to use a string accumulator.
+
+Sample Execution:   
+
+How many stores are there?: 5
+
+Enter the total sales for Store 1: 1000
+Enter the total sales for Store 2: 1200
+Enter the total sales for Store 3: 1800
+Enter the total sales for Store 4: 800
+Enter the total sales for Store 5: 1900
+    
+GRAPH OF TOTAL SALES
+(Each * = $100)
+Store 1: **********
+Store 2: ************
+Store 3: ******************
+Store 4: ********
+Store 5: *******************
+ 
+ 
+
+ 
+
+Problem 04: Two Patterns (20 points)
+
+Write a program which asks the user for an integer and then prints the following patterns based on that integer. 
+
+Input Validation:
+
+For Pattern 1, the input must be a value between 1 and 999.
+For Pattern 2, the input must be a value between 1 and 26.
+Requirements:
+
+For Pattern 1: must be able to work with up to three digit numbers.  You will want to use printf to get the spacing correct.
+For Pattern 2: make note of what is uppercase and what is lowercase.
+You must use for loops to solve this problem.
+Program must be dynamic and work for any of the valid input values.  You CANNOT hardcode the output.
+HINT: You will need to use nested loops for this one.  Each pattern is its own set of nested loops.
+
+Sample Execution:
+
+How many rows for Pattern 1?: 10
+
+10 
+10  9 
+10  9   8  
+10  9   8   7  
+10  9   8   7   6  
+10  9   8   7   6   5   
+10  9   8   7   6   5   4   
+10  9   8   7   6   5   4   3   
+10  9   8   7   6   5   4   3   2   
+10  9   8   7   6   5   4   3   2   1
+
+How many rows for Pattern 2?: 26
+A b C d E f G h I j K l M n O p Q r S t U v W x Y z
+A b C d E f G h I j K l M n O p Q r S t U v W x Y
+A b C d E f G h I j K l M n O p Q r S t U v W x
+A b C d E f G h I j K l M n O p Q r S t U v W
+A b C d E f G h I j K l M n O p Q r S t U v
+A b C d E f G h I j K l M n O p Q r S t U
+A b C d E f G h I j K l M n O p Q r S t
+A b C d E f G h I j K l M n O p Q r S
+A b C d E f G h I j K l M n O p Q r
+A b C d E f G h I j K l M n O p Q
+A b C d E f G h I j K l M n O p
+A b C d E f G h I j K l M n O
+A b C d E f G h I j K l M n
+A b C d E f G h I j K l M
+A b C d E f G h I j K l
+A b C d E f G h I j K
+A b C d E f G h I j
+A b C d E f G h I
+A b C d E f G h
+A b C d E f G
+A b C d E f
+A b C d E
+A b C d
+A b C
+A b
+A 
