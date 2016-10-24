@@ -1,0 +1,46 @@
+
+Write a program to display the following table of powers of 2.
+Power Result
+2^0 1
+2^1 2
+2^2 4
+2^3 8
+2^4 16
+2^5 32
+2^6 64
+2^7 128
+Problem #02: Printing A Poem or Song (5 points)
+Write a program which prints the text from your favorite poem or song. 
+Problem #03: Display a Pattern (5 points)
+Write a program which displays the following pattern:
+Problem #04: Printing ASCII Art (5 points)
+Write a program that prints the following ASCII art.
+ __
+ ||
+ ||
+ ___||___
+ _/#______#\_
+ / _/ | || \_ \
+ |_| | || |_|
+ | ||
+ | ||
+ | ||
+ _____|_||_______
+ / /\ \ \
+ # /__\ # #
+ / /\ /\ \ \
+ # /__\/__\ # #
+ /_____________________\__\
+If you aren't a Legend of Zelda fan, (and really how can you NOT be ^_^), feel free to find another piece of
+ASCII art online that you like and print that instead.
+HINT: For this one it is easier to start from the bottom and work your way up line by line. to get the alignment
+correct.
+HINT: The characters used in the above piece of art are as follows: _ (underscore) | (vertical pipe, usually found
+on the backslash key) # (pound or hash symbol) \ (backslash) / (forward slash). Note that the underscore is used
+multiple times in a row to create longer horizontal lines. Also NOTE: If you want to print a backslash in Java
+you need to print two right next to each other without a space in between for example: "\\". We will discuss
+why this is next week.
+Example: to print the bottom line of the picture you would put the following in your code:
+System.out.println("/_____________________\\__\\)"
+Which would print: /_____________________\__\
+Again, note the use of the double \ in the print statement. This is required for all backslashes.
