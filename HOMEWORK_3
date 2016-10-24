@@ -1,0 +1,93 @@
+Write a program that reads a floating-­point number and prints "zero" if the number is zero. Otherwise, print "positive"
+or "negative". Add “small” if the absolute value of the number is less than 1, or "large" if it exceeds 1,000,000.
+
+Sample Output 1:
+Enter a floating-point number: 0
+zero
+
+Sample Output 2:
+Enter a floating-point number: 0.2637
+small, positive
+
+Sample Output 3:
+Enter a floating-point number: -1234567
+large, negative
+
+Sample Output 4:
+Enter a floating-point number: -42.29645
+negative
+
+Sample Output 5:
+Enter a floating-point number: 367.27
+positive
+
+Problem 02: Quadratic Equation Solver (5 points)
+
+The two roots of a quadratic equation ax2+bx+c=0ax2+bx+c=0 can be obtained using the following formula:
+
+r1=−b+b2−4ac√2ar1=−b+b2−4ac2a                                    r2=−b−b2−4ac√2ar2=−b−b2−4ac2a
+
+b2−4acb2−4ac is called the discriminant of the quadratic equation. If it is positive, the equation has two real 
+roots. If it is zero, the equation has one root. If it is negative, the equation has no real roots. Write a program 
+that prompts the user to enter values for a, b, and c and displays
+the result based on the discriminant. If the discriminant is positive, display two roots. If the discriminant is 0,
+display one root. Otherwise, display "The equation has no real roots".
+
+Sample Output 1:
+
+Enter the a, b, and c: 1.0 3.0 1.0
+The equation has two roots -0.381966 and -2.61803
+
+Sample Output 2:
+
+Enter the a, b, and c: 1.0 2.0 1.0
+The equation has one root -1
+
+Sample Output 3:
+
+Enter the a, b, and c: 1.0 2.0 3.0
+The equation has no real roots
+
+Problem 03: Random Month (5 points)
+
+NOTE: This program does not have user input.  Write a program which generates a random number between 1 and 
+12 [1, 12], and displays the English month name corresponding to that number.  i.e. 1 would print January, 2 
+would print February, and so on.
+
+ 
+
+Problem 04: Today and Future Day (5 points)
+
+Write a program that prompts the user to enter an integer for today’s day of the week (Sunday is 0, Monday is 
+1, …, and Saturday is 6). Also prompt the user to enter the number of days after today for a future 
+day and display the future day of the week.
+
+HINT: You will need to use the % operator to correctly compute the future day.
+
+Sample Output 1:
+
+Enter today's day: 1
+Enter the number of days elapsed since today: 3
+
+Today is Monday and the future day is Thursday.
+
+Sample Output 2:
+
+Enter today's day: 0
+Enter the number of days elapsed since today: 31
+
+Today is Sunday and the future day is Wednesday.
+
+Problem 05: Time Calculator (5 points)
+
+Write a program that asks the user to enter a number of seconds.
+
+There are 60 seconds in a minute. If the number of seconds entered by the user is greater than or equal to 60, the program 
+should display the number of minutes in that many seconds.
+There are 3,600 seconds in an hour. If the number of seconds entered by the user is greater than or equal to 3,600, 
+the program should display the number of hours in that many seconds.
+There are 86,400 seconds in a day. If the number of seconds entered by the user is greater than or equal to 86,400, 
+the program should display the number of days in that many seconds.
+NOTE: It is possible for an entered value to fit all three condition, so code your selection statements accordingly.
+
+ 
