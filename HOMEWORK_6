@@ -1,0 +1,123 @@
+Problem 01: Employee Payroll (10 points)
+
+Write a program that gathers some information about an employee and displays the printout of the results.  
+See the sample output for how the program should run.
+
+Input Validation:
+
+None of the numeric values can be negative.
+Requirements:
+
+Assume the name has a first name, middle initial, and last name.  You must enter the full name on one input line.
+The output must be displayed EXACTLY as shown.
+Round all decimals to 2 decimal places.
+Sample Output:
+
+Enter ID Number: 1423
+Enter Employee Name: Tanner X. Maribel
+Enter Hours Worked: 10.0
+Enter Hourly Pay: 9.75
+Enter Federal Tax Withholding Rate: 0.20
+Enter State Tax Withholding rate: 0.09
+
+-------------------------Payroll Report-------------------------
+Employee First Name:                    Tanner
+Employee Middle Initial:                X.
+Employee Last Name:                     Maribel
+Employee ID Number:                     1423
+Hours Worked:                           10.0
+Pay Rate:                               $9.75
+Gross Pay:                              $97.5
+Deductions:
+     Federal Withholding (20.0%):       $19.5
+     State Withholding (9.0%):          $8.78
+     Total Deduction:                   $28.28
+Net Pay:                                $69.22
+----------------------------------------------------------------
+Problem 02: Sum Digits of a Large Number (15 points)
+
+Write a program which takes a very large number and finds the sum of its digits.
+
+Input Validation:
+
+The input must be exactly 15 numbers.
+Each character entered must be a number.
+Requirements:
+
+Number must be entered as a single value.
+Sample Output:
+Enter a 15 digit number: 348263967254441
+The sum is: 68
+Problem 03: MMO Slash Commands (15 points)
+
+Popular MMO (massively multiplayer online) Games use "slash commands" in the in-game chat interface to perform 
+various tasks.  These commands range from making your character "emote" (dance, laugh, etc) or roll random numbers,
+or invite people to groups and so on.  Implement a simple chat interface that accepts slash commands and displays the 
+required output.  A slash command starts with a forward slash followed by the command i.e. /dance.
+
+Ask the user to enter their character name then display a chat prompt which is just the greater than sign >.  
+The command will be entered after this prompt.
+
+Implement the following commands.
+
+/roll
+This should generate and display a random number between [0, 100].
+It should display the message <character_name> rolled a #.
+/dance
+Display the message "<character_name> performs a lively dance."
+/invite <person_to_invite>
+Display the message "<person_to_invite> has been invited to <character_name>'s party."
+/say <something you want to say>
+Display the message "<character_name> says <something you want to say>"
+Input Validation:
+
+If the command entered is not a valid command, display an error message and exit the program.
+Requirements:
+
+Assume character names will only be one word.
+The commands must be entered all on one line.
+Sample Output 1:
+
+Enter your character name: Java_L337
+> /roll
+> Java_L337 rolled a 75.
+Sample Output 2:
+
+Enter your character name: Java_L337
+> /dance
+> Java_L337 performs a lively dance.
+Sample Output 3:
+
+Enter your character name: Java_L337
+> /invite Python_Rulez
+> Python_Rulez has been invited to Java_L337's party.
+Sample Output 4:
+
+Enter your character name: Java_L337
+> /say Can I get a rez?
+> Java_L337 says: Can I get a rez?
+ 
+
+Problem 04: Phone Keypad (20 points)
+
+Telephone keypads have an international standard for mapping the alphabet to the number keys.  This can be seen 
+in the image below:
+
+
+
+Write a program which can take a series of 10 letters and converts them to the corresponding phone number.
+ 
+
+Input Validation:
+
+The input must be exactly 10 characters, no more, no less.
+Requirements:
+
+The output must be formatted in the following format (###) ###-####.
+You are NOT allowed to use loops or arrays.  You may only use coding techniques found in chapters.
+Your program must work for any input.
+Sample Output:
+
+Enter input: CODEISLIFE
+
+Phone Number: (263) 347-5433
