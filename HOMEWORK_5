@@ -1,0 +1,104 @@
+Problem 01: Area of a Hexagon (5 points)
+
+Write a program which asks the user for the length of one of the sides (s) of a hexagon and computes its area.  
+Use the following formula:
+
+area=6s24tan(π6)area=6s24tan(π6)
+
+Input Validation:
+
+Side length cannot be negative.
+Requirements:
+
+Round the output to 3 decimal places.
+Sample Output
+
+Enter the length of a side of the hexagon: 10.79
+
+Area is 302.478684638 
+Problem 02: Four Cities Area (5 points)
+
+Write a program to compute the area between the four cities of: Atlanta, Georgia; Charlotte, North Carolina; 
+Savannah, Georgia; and Orlando, Florida. You will need to use the Great Circle Distance Formula to compute the 
+distance between two cities.  Use the given website to lookup to GPS coordinates for each of the four cities.  
+Use the given formulas to compute the area.  Refer to the map for the general shape of the area.
+
+
+Formulas and Other Information:
+
+distance=radius×arccos(sin(x1)×sin(x2)+cos(x1)×cos(x2)×cos(y1−y2))
+The GPS coordinates for each city can be found using this website: GPS Coordinate Finder
+radius of earth = 6371.01 km
+s=(side1+side2+side3)/2
+triangle area=s(s−side1)(s−side2)(s−side3)
+
+The map may be useful for picturing the area:
+
+
+
+Input Validation:
+
+None required, no user input.
+Requirements:
+
+The GPS coordinates must be stored as constants in your program.
+The radius of the earth must be stored as a constant in your program.
+Round the output to 4 decimal places.
+NOTE: The shape is a four sided polygon, not a triangle, think this problem through very carefully.
+
+HINT: The following are the five distances that you need to calculate to solve the problem.  Check your distances
+against mine.  You are NOT allowed to hard code these distances.  You must let your program compute them.
+
+Atlanta to Charlotte Distance:   	364.06527348474543 km
+Charlotte to Savannah Distance:	350.3530739761958 km
+Savannah to Orlando Distance:  	395.1202330987338 km
+Orlando to Atlanta Distance:    	646.1971341531463 km
+Atlanta to Savannah Distance:	358.4399024929256 km
+Sample Output
+
+The area of the four cities is: 117863.3417 kms squared.
+Problem 03: Character Converter (5 points)
+
+Create a menu-driven program that converts a character between its Unicode value and vice versa.  The menu should 
+have the following options:
+
+a. Convert Character to Unicode
+b. Convert Unicode to Character
+c. Exit Program
+
+Allow the user to choose a menu choice and enter a character or Unicode value and convert the input respectively.
+
+Input Validation:
+
+The menu choices must be valid.
+The menu choices should use characters for the choices, instead of numbers.
+The Unicode value entered must not be negative.
+HINT: To read a single character from the console use the following command with your Scanner variable.
+
+.next().charAt(0)
+
+Problem 04: Character Analysis (5 points)
+
+Write a program that has the user enter a character and displays some information about the character based on the following rules:
+
+Say whether or not the character is a letter, digit, or non-alphanumeric.
+If the character is a letter, say whether or not it is uppercase or lowercase
+Input Validation:
+
+None required.
+Sample Output 1
+
+Enter a character: j
+lowercase letter
+Sample Output 2
+
+Enter a character: #
+non-alphanumeric
+Sample Output 3
+
+Enter a character: O
+uppercase letter
+Sample Output 4
+
+Enter a character: 6
+digit
