@@ -1,0 +1,85 @@
+Problem 01: Currency Converter (5 points)
+
+Write a program that converts U.S. dollars to pounds, euros, and yen.  Use the following conversation rates:
+
+1 dollar = 0.76 pounds
+1 dollar = 0.89 euros
+1 dollar = 101.88 yen
+
+Your code must declare each conversion factor as a named constant.  Ask the user for an amount in dollars and show the resulting rates for each of the three currencies.
+
+Sample Output:
+
+Enter a dollar amount: 27.45
+
+Pounds: 20.862
+Euros: 24.4305
+Yen: 2796.606
+
+Problem 02: Compute the Volume of a Pyramid (5 points)
+
+Write a program to compute the volume of a pyramid.  Ask the user for the length and width of the base, and the height 
+of the pyramid.  Use the following formula:
+
+area=(length)(width)area=(length)(width)
+
+volume=13(area)(height)volume=13(area)(height)
+
+Sample Output:
+
+Enter the length, width, and height of a pyramid: 2.5 6.7 7.5 
+The area is 16.75
+The volume is 41.875
+
+ 
+
+Problem 03: Distance Between Two Points (5 points)
+
+Write a program that asks the user for the x and y values of two points (x1, y1) and (x2, y2).  Use the distance formula given 
+below to display the distance between the two points:
+
+distance=(x2−x1)2+(y2−y1)2−−−−−−−−−−−−−−−−−−√distance=(x2−x1)2+(y2−y1)2
+
+Sample Output:
+
+Enter x1 and y1: 1.5 -3.4
+Enter x2 and y2: 4.0 5.0
+
+The distance between point (1.5, -3.4) and (4.0, 5.0) is: 8.764131445842194
+
+Problem 04: Temperature Conversion
+
+Design a program that asks the user for a temperature in Celsius.  The program should then convert the temperature 
+to Fahrenheit and display the result.  Next, ask the user for a temperature in Fahrenheit and convert the value to Celsius
+and display the result.
+
+Formulas are given below:
+
+fahrenheit=95celsius+32fahrenheit=95celsius+32
+
+celsius=(fahrenheit−32)59celsius=(fahrenheit−32)59
+
+ 
+
+Sample Output:
+
+Enter a temperature in Celsius: 43
+43 Celsius is 109.4 Fahrenheit
+
+Enter a temperature in Fahrenheit: 89
+89 Fahrenheit is 31.6667 Celsius
+
+Problem 05: Separating a Decimal Value (5 points)
+
+Write a program which asks the user to enter a floating-point number.  Split the number into its integer and fractional 
+parts and display them separately.  This program can be tricky, but will have only a few lines of code.  Think through it carefully.
+
+Sample Output:
+
+Enter a floating-point value: 27.392175
+Integer Part: 27
+Fractional Part: 0.392175
+
+NOTE: Due to the rounding error issue we discussed in class, your results for the Fractional Part may 
+be slightly different from mine.  As long as your fractional part is very very close to mine, you should be
+OK.  You might have extraneous decimal places due to rounding errors.
